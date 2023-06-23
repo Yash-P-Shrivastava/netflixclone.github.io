@@ -1,0 +1,286 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+}
+#part1::before{
+    content: "";
+    position: absolute;
+    background: url('assests/netflix bg.jpg') no-repeat center center/cover;
+    height: 710px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.5;
+    top: 0px;
+    box-shadow: -19px 20px 50px 40px black inset;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0;
+    /* border: 3px solid white; */
+}
+#eng{
+    content: "";
+    /* position: absolute; */
+    width: 105px;
+    height: 35px;
+    background-color: black;
+    opacity: 0.9;
+    border-color: rgb(255,255,255);
+    border-radius: 5px;
+    font-family: 'DM Sans', sans-serif;
+    color: white;
+    /* z-index: -1; */
+    margin-right: 20px;
+}
+#details{
+    text-align: end;
+}
+.logo img{
+    margin-left: 87px;
+    margin-top: -55px;
+    /* border: 2px solid red; */
+    padding: 0px 25px;
+    width: 370px;
+    height: 204px;
+}
+.main-content{
+    color: rgb(255,255,255);
+    text-align: center;
+    margin-top: 112px;
+}
+/* buuttons and email section */
+.small-btn{
+    padding: 10px 25px;
+    margin-right: 215px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: bolder;
+    margin-top: 23px;
+    cursor: pointer;
+}
+.sub-main-content{
+    margin-top: 20px;
+}
+.email{
+    padding: 22px 131px;
+    opacity: 0.5;
+    margin-right: 6px;
+    border-radius: 4px;
+    background-color: black;
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+}
+.email::placeholder{
+    color: white;
+    text-align: left;
+    font-family: 'DM Sans', sans-serif;
+}
+.big-btn{
+    background-color: red;
+    color: white;
+    border-radius: 9px;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-weight: bolder;
+    padding: 15px 64px;
+    cursor: pointer;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.5rem;
+}
+#btn:hover{
+    background-color: rgb(204, 13, 22);
+}
+#info{
+    width: 895px;
+    height: 73px;
+    text-align: left;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    font-size: 1.4rem;
+    padding-top: 13px;
+    padding-left: 20px;
+    color: rgb(255, 255, 255);
+    background-color: grey;
+    opacity: 0.5;
+}
+
+#info:hover{
+    cursor: pointer;
+    background-color: grey;
+    opacity: 1;
+}
+/* ---------------------------------------------------------------------------------------------- */
+#division{
+    background-color: grey;
+    padding: 5px;
+    opacity: 0.5;
+    margin-top: 170px;
+}
+/* ---------------------------------------------------------------------------------------------- */
+.part2{
+    display: flex;
+    color: white;
+    background-color: black;
+}
+.left-content{
+    width: 500px;
+    margin-left: 187px;
+    margin-top: 160px;
+    /* border: 2px solid red; */
+}
+
+.right-content img {
+        /* border: 2px solid red; */
+        margin-left: 92px;
+        margin-top: 90px;
+        height: 320px;
+}
+/* ---------------------------------------------------------------------------------------------- */
+.part3{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    margin-top: 113px;
+}
+.left-side img{
+    margin-left: 112px;
+    height: 330px;
+    width: 500px ;
+}
+.right-side{
+    /* border: 2px solid red; */
+    width: 482px;
+    margin-right: 195px;
+    margin-top: 20px;
+}
+/* ---------------------------------------------------------------------------------------------- */
+.part4{
+    display: flex;
+    color: white;
+}
+#net{
+    width: 415px;
+}
+/* ---------------------------------------------------------------------------------------------- */
+.part5{
+    display: flex;
+    color: white;
+    margin-top: 100px;
+    justify-content: space-between;
+}
+#net1{
+    width: 495px;
+    height: 340px;
+}
+/* ---------------------------------------------------------------------------------------------- */
+.part6{
+    color: white;
+}
+#heading{
+    margin: auto;
+    text-align: center;
+    margin-top: 60px;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+#login{
+    margin-top: 80px;
+}
+/* ---------------------------------------------------------------------------------------------- */
+.part7{
+    color: white;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+}
+#boxa1 p{
+    text-align: left;
+    margin-bottom: 40px;
+    width: 505px;
+    height: 30px;
+    color: rgba(255, 255, 255, 0.7);
+} 
+p a{
+    color: rgba(255, 255, 255, 0.7);
+}
+#boxa1{
+    /* border: 2px solid red; */
+    width: 300px;
+    height: 300px;
+    margin-top: 165px;
+    margin-left: 80px;
+    margin-right: 150px;
+    font-family: 'DM Sans', sans-serif;
+}
+#boxa{
+    /* border: 2px solid red; */
+    width: 300px;
+    height: 300px;
+    margin-top: 233px;
+    margin-left: -80px;
+    margin-right: 150px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+ul li{
+    list-style: none;
+    text-align: left;
+
+}
+ul li a{
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.lang{
+    margin-top: 80px;
+}
+#india{
+    margin-top: 20px;
+}
+/* ---------------------------------------------------------------------------------------------- */
+/* lines */
+.line1{
+    font-size: 3rem;
+    font-weight: 900;
+    font-family: 'Work Sans', sans-serif;
+}
+.line2{
+    margin-top: 30px;
+    font-weight: 300;
+    font-size: 2rem;
+    font-family: 'DM Sans', sans-serif;
+}
+.line3{
+    margin-top: 18px;
+    font-weight: 300;
+    font-size: 1.5rem;
+    font-family: 'DM Sans', sans-serif;
+}
+.line4{
+    font-size: 1.5rem;
+    font-family: 'DM Sans', sans-serif;
+    margin-top: 15px;
+}
+.line5{
+    font-size: 1.5rem;
+    font-family: 'DM Sans', sans-serif;
+    margin-top: 30px;
+}
+.line6{
+    font-size: 1rem;
+    font-family: 'DM Sans', sans-serif;
+}
+/* ---------------------------------------------------------------------------------------------- */
